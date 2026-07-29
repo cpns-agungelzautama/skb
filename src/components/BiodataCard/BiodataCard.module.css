@@ -1,66 +1,80 @@
-.card {
-    background: #fff;
-    border-radius: 14px;
-    padding: 28px;
-    border:1px solid #e6ebf0;
-    margin-top: 28px;
-
-    box-shadow: 0 8px 25px rgba(0,0,0,.05);
+.row {
+  display: grid;
+  grid-template-columns: 220px 20px 1fr;
+  gap: 6px;
+  margin-bottom: 16px;
+  align-items: start;
 }
 
-.wrapper{
-    display:grid;
-
-    grid-template-columns:220px 1fr;
-
-    gap:35px;
+.label {
+  font-weight: 600;
+  color: #2f3b4a;
 }
 
-.photo{
-
-    display:flex;
-    justify-content:center;
-
+.separator {
+  text-align: center;
+  color: #666;
 }
 
-.photo img{
-    width:250px;
-    height:380px;
-    object-fit:cover;
-
-    border-radius:12px;
-
-    border:3px solid #dce3ea;
+.value {
+  line-height: 1.7;
+  color: #333;
+  word-break: break-word;
 }
 
-.content{
+/* ===================== */
+/* Tablet */
+/* ===================== */
 
-    display:grid;
+@media (max-width: 992px) {
 
-    grid-template-columns:1fr 1fr;
-
-    gap:50px;
+  .row {
+    grid-template-columns: 180px 18px 1fr;
+  }
 
 }
 
-@media(max-width:900px){
+/* ===================== */
+/* Mobile */
+/* ===================== */
 
-.wrapper{
+@media (max-width: 768px) {
 
-grid-template-columns:1fr;
+  .row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+    margin-bottom: 18px;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .label {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .value {
+    font-size: 15px;
+    padding-left: 10px;
+    border-left: 3px solid #e3e8ef;
+  }
 
 }
 
-.content{
+/* ===================== */
+/* Small Phone */
+/* ===================== */
 
-grid-template-columns:1fr;
+@media (max-width: 480px) {
 
-}
+  .label {
+    font-size: 14px;
+  }
 
-.photo{
-
-justify-content:center;
-
-}
+  .value {
+    font-size: 14px;
+  }
 
 }
