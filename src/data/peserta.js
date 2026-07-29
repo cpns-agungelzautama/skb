@@ -1,5 +1,5 @@
 const peserta = {
-  foto: "/images/profile.jpg",
+  foto: `${import.meta.env.BASE_URL}images/profile.jpg`,
 
   jenisSeleksi: "PPPK Teknis",
   instansi: "Kementerian Sosial",

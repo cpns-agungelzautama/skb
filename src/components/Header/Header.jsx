@@ -6,8 +6,7 @@ function Header() {
       <div className={styles.container}>
         <div className={styles.brand}>
           <img
-            src="/images/logo-bkn.png"
-            alt="BKN"
+            src={`${import.meta.env.BASE_URL}images/logo-bkn.png`} alt="Logo BKN"
           />
 
           <div>
