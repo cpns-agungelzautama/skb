@@ -1,0 +1,66 @@
+.card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 28px;
+    border:1px solid #e6ebf0;
+    margin-top: 28px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,.05);
+}
+
+.wrapper{
+    display:grid;
+
+    grid-template-columns:220px 1fr;
+
+    gap:35px;
+}
+
+.photo{
+
+    display:flex;
+    justify-content:center;
+
+}
+
+.photo img{
+    width:250px;
+    height:380px;
+    object-fit:cover;
+
+    border-radius:12px;
+
+    border:3px solid #dce3ea;
+}
+
+.content{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:50px;
+
+}
+
+@media(max-width:900px){
+
+.wrapper{
+
+grid-template-columns:1fr;
+
+}
+
+.content{
+
+grid-template-columns:1fr;
+
+}
+
+.photo{
+
+justify-content:center;
+
+}
+
+}

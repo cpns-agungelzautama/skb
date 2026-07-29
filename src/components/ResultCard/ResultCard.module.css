@@ -1,0 +1,77 @@
+.card{
+
+    background:#edf9f0;
+
+    border: 1px solid #8fd19e;
+
+    border-left:5px solid #4caf50;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.06);
+
+}
+
+.header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.title{
+
+    font-weight:700;
+
+    color:#1b5e20;
+
+    font-size:20px;
+
+}
+
+.badge{
+
+    background:#c8f0cf;
+
+    color:#1b5e20;
+
+    padding:8px 20px;
+
+    border-radius:30px;
+
+    font-weight:700;
+    
+    font-size: 14px;
+
+}
+
+.card h2{
+
+    margin:20px 0 15px;
+
+    font-size:28px;
+
+}
+
+.card span{
+
+    color:#2196d3;
+
+}
+
+.card p{
+
+    font-size:18px;
+
+    margin-top:10px;
+
+    line-height:1.8;
+
+}

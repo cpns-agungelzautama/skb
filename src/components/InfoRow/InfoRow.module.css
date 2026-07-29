@@ -1,0 +1,18 @@
+.row{
+    display:grid;
+    grid-template-columns:240px 20px 1fr;
+
+    margin-bottom:18px;
+}
+
+.label{
+    font-weight:600;
+}
+
+.separator{
+    text-align:center;
+}
+
+.value{
+    line-height:1.6;
+}
