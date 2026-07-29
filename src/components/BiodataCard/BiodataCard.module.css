@@ -11,6 +11,13 @@
   color: #2f3b4a;
 }
 
+.content{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:40px;
+    width:100%;
+}
+
 .separator {
   text-align: center;
   color: #666;
@@ -22,44 +29,60 @@
   word-break: break-word;
 }
 
-/* ===================== */
-/* Tablet */
-/* ===================== */
+/* ========================= */
+/* TABLET */
+/* ========================= */
 
-@media (max-width: 992px) {
+@media (max-width:992px){
 
-  .row {
-    grid-template-columns: 180px 18px 1fr;
-  }
+    .wrapper{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .content{
+
+        grid-template-columns:1fr;
+
+        gap:28px;
+
+    }
+
+    .photo{
+
+        margin:0 auto 25px;
+
+    }
 
 }
 
-/* ===================== */
-/* Mobile */
-/* ===================== */
 
-@media (max-width: 768px) {
+/* ========================= */
+/* MOBILE */
+/* ========================= */
 
-  .row {
-    grid-template-columns: 1fr;
-    gap: 4px;
-    margin-bottom: 18px;
-  }
+@media (max-width:768px){
 
-  .separator {
-    display: none;
-  }
+.card{
 
-  .label {
-    font-size: 15px;
-    font-weight: 700;
-  }
+padding:18px;
 
-  .value {
-    font-size: 15px;
-    padding-left: 10px;
-    border-left: 3px solid #e3e8ef;
-  }
+}
+
+.photo img{
+
+width:180px;
+
+height:260px;
+
+}
+
+.content{
+
+display:block;
+
+}
 
 }
 
