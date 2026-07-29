@@ -147,7 +147,7 @@ function BiodataCard() {
     },
 
     {
-      label:"Non DisabilitasP",
+      label:"Non Disabilitas",
       value:peserta.disabilitas
     }
 
