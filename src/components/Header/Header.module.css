@@ -10,6 +10,13 @@ box-shadow:0 4px 15px rgba(0,0,0,.12);
 
 }
 
+.header{
+
+box-shadow:
+0 6px 18px rgba(0,0,0,.15);
+
+}
+
 .container{
 
 max-width:1520px;

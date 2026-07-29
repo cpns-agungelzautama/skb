@@ -1,17 +1,11 @@
 .card{
-
-    background:#edf9f0;
-
-    border: 1px solid #8fd19e;
-
-    border-left:5px solid #4caf50;
-
+    background:#f5fff6;
+    border:1px solid #86d69a;
+    border-left:5px solid #59b96d;
     border-radius:18px;
-
-    padding:30px;
-
-    box-shadow:0 4px 12px rgba(0,0,0,.06);
-
+    padding:28px 30px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    margin-bottom:28px;
 }
 
 .header{
@@ -37,19 +31,12 @@
 }
 
 .badge{
-
-    background:#c8f0cf;
-
-    color:#1b5e20;
-
-    padding:8px 20px;
-
-    border-radius:30px;
-
+    background:#d9f8d9;
+    color:#22863a;
+    padding:8px 22px;
+    border-radius:999px;
     font-weight:700;
-    
-    font-size: 14px;
-
+    font-size:15px;
 }
 
 .card h2{
